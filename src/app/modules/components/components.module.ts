@@ -1,15 +1,31 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from '../../components/home/home.component';
+import { BasicNavComponent } from '../../components/basic-nav/basic-nav.component';
+import { RouterModule } from '@angular/router';
+import { RootComponent } from '../../components/root/root.component';
+import { HomeSection1Component } from '../../components/home/home-section1/home-section1.component';
+import { HomeSection2Component } from '../../components/home/home-section2/home-section2.component';
+import { HomeSection3Component } from '../../components/home/home-section3/home-section3.component';
+import { GalleryComponent } from '../../components/gallery/gallery.component';
+import { MaterialModule } from '../material/material.module';
 
 
 
 @NgModule({
   declarations: [
-    HomeComponent
+    HomeComponent,
+    BasicNavComponent,
+    RootComponent,
+    HomeSection1Component,
+    HomeSection2Component,
+    HomeSection3Component,
+    GalleryComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    MaterialModule
   ]
 })
 export class ComponentsModule { }

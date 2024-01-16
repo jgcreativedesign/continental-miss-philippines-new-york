@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('./assets/css/coolors.css');
+@import url('./assets/css/google-fonts.css');
+@import "../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css";
+
+
+.divider{
+    height: 3px;
+    width: 100px;
+    background-color: aqua;
+}
