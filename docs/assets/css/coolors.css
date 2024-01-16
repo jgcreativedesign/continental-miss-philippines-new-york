@@ -1,0 +1,50 @@
+:root{
+    /* CSS HEX */
+--bright-pink-crayola: #ff6978ff;
+--light-blue: #92b9bdff;
+--celadon: #a8d4adff;
+--mindaro: #f2f79eff;
+--icterine: #e8ec67ff;
+}
+
+/* Background */
+.co-pink-bg{
+    background-color: var(--bright-pink-crayola);
+}
+
+.co-blue-bg{
+    background-color: var(--light-blue);
+}
+
+.co-celadon-bg{
+    background-color: var(--celadon);
+}
+
+.co-mindaro-bg{
+    background-color: var(--mindaro);
+}
+
+.co-icterine-bg{
+    background-color: var(--icterine);
+}
+
+/* Color */
+.co-pink-color{
+    color: var(--bright-pink-crayola);
+}
+
+.co-blue-color{
+    color: var(--light-blue);
+}
+
+.co-celadon-color{
+    color: var(--celadon);
+}
+
+.co-mindaro-color{
+    color: var(--mindaro);
+}
+
+.co-icterine-color{
+    color: var(--icterine);
+}
