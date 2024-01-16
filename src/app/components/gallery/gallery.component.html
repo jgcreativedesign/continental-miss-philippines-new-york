@@ -1,3 +1,3 @@
 <section>
-    <img (click)="openDialog('assets/img/Jasmine/' + pic.filename)" *ngFor="let pic of jasmineImages.images" [src]="'assets/img/Jasmine/' + pic.filename" width="100" height="100" alt="">
+    <img (click)="openDialog(pic.filename)" *ngFor="let pic of jasmineImages.images" [src]="pic.filename ">
 </section>
