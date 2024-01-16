@@ -1,4 +1,6 @@
 section{
+    max-width: 900px;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 50px;
