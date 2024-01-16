@@ -9,6 +9,9 @@ import { HomeSection2Component } from '../../components/home/home-section2/home-
 import { HomeSection3Component } from '../../components/home/home-section3/home-section3.component';
 import { GalleryComponent } from '../../components/gallery/gallery.component';
 import { MaterialModule } from '../material/material.module';
+import { FooterComponent } from '../../components/footer/footer.component';
+import { ImageDialogComponent } from '../../components/gallery/image-dialog/image-dialog.component';
+import { AboutComponent } from '../../components/about/about.component';
 
 
 
@@ -20,7 +23,10 @@ import { MaterialModule } from '../material/material.module';
     HomeSection1Component,
     HomeSection2Component,
     HomeSection3Component,
-    GalleryComponent
+    GalleryComponent,
+    FooterComponent,
+    ImageDialogComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,

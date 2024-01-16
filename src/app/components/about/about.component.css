@@ -1,0 +1,59 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.joy{
+    background-color: rgba(137, 43, 226, 0.24);
+    background-image: url('../../../assets/img/squigly_repeating.png');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+.energy{
+    background-color: rgba(18, 104, 51, 0.24);
+    background-image: url('../../../assets/img/squigly_repeating.png');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+.spirited{
+    background-color: rgba(43, 70, 226, 0.24);
+    background-image: url('../../../assets/img/squigly_repeating.png');
+    background-size: contain;
+    background-repeat: repeat;
+    text-align: center;
+}
+
+.tiers{
+    margin: 15px;
+}
+
+.joy-p{
+    background-color:khaki;
+}
+
+.energy-p{
+    background-color:seashell;
+}
+
+.spirited-p{
+    background-color: antiquewhite;
+}
+
+p{
+    padding: 10px;
+}
+
+@media(max-width: 700px){
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

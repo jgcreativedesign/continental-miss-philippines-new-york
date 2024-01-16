@@ -24,9 +24,9 @@ img{
 .left-img{
     position: absolute;
     top: 0;
-    object-fit: contain;
+    object-fit: cover;
     object-position: left;
-    opacity: .1;
+    opacity: .3;
 }
 
 .name{

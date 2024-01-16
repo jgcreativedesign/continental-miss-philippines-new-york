@@ -1,6 +1,5 @@
 section{
     max-width: 1000px;
-    height: 80vh;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
