@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href https://jzon-03.github.io/blockrosary/ && ngh --dir=docs --no-silent"
+    "deploy": "ng build --base-href  https://jgcreativedesign.github.io/continental-miss-philippines-new-york/ && ngh --dir=docs --no-silent"
   },
   "private": true,
   "dependencies": {
