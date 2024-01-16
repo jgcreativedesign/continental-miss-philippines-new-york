@@ -1,0 +1,35 @@
+section{
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    min-height: 80vh;
+}
+
+img{
+    position: absolute;
+    object-fit: cover;
+}
+
+.jasmine{
+    top: 0;
+    height: 100%;
+    opacity: .3;
+}
+
+.heart{
+    top: 0;
+    object-position: top left;
+    opacity: .5;
+}
+
+.rainbow{
+    bottom: 0;
+    right: 0;
+    object-position: bottom left;
+    opacity: .5;
+}
+
+p{
+    padding: 10%;
+    font-size: 30px;
+}

@@ -12,6 +12,7 @@ import { MaterialModule } from '../material/material.module';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { ImageDialogComponent } from '../../components/gallery/image-dialog/image-dialog.component';
 import { AboutComponent } from '../../components/about/about.component';
+import { AboutSection1Component } from '../../components/about/about-section1/about-section1.component';
 
 
 
@@ -26,7 +27,8 @@ import { AboutComponent } from '../../components/about/about.component';
     GalleryComponent,
     FooterComponent,
     ImageDialogComponent,
-    AboutComponent
+    AboutComponent,
+    AboutSection1Component
   ],
   imports: [
     CommonModule,
